@@ -80,7 +80,7 @@
     
             <div class="tab">
                 <button class="tablinks" onclick="openTab(event, 'PIR')" id="defaultOpen">PIR</button>
-                <button class="tablinks" onclick="openTab(event, 'DHT11')">DHT11</button>
+                <button class="tablinks" onclick="openTab(event, 'DHT22')">DHT22</button>
             </div>
     
             <div id="PIR" class="tabcontent">
@@ -89,9 +89,10 @@
                 <div id="PIR"></div> <!-- Added to display ThingSpeak data -->
             </div>
     
-            <div id="DHT11" class="tabcontent">
-                <h3>DHT11</h3>
-                <p>Details about DHT11...</p>
+            <div id="DHT22" class="tabcontent">
+                <h3>DHT22</h3>
+                <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2901232/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&yaxismax=100&yaxismin=0"></iframe>
+                <p>Details about DHT22...</p>
             </div>
         </div>
     </body>
